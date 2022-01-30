@@ -1,26 +1,31 @@
 {
     "products": [
       {
+        "id": 0,
         "name": "กะเพราหมู",
         "description": "หมูสีรุ้ง",
         "price": 100
       },
       {
+        "id": 1,
         "name": "กะเพราแมว",
         "description": "แมวสีรุ้ง",
         "price": 200
       },
       {
+        "id": 2,
         "name": "กะเพราหมา",
         "description": "หมาสีรุ้ง",
         "price": 300
       },
       {
+        "id": 3,
         "name": "กะเพราม้า",
         "description": "ม้าสีรุ้ง",
         "price": 400
       },
       {
+        "id": 4,
         "name": "กะเพราแมวSSR",
         "description": "แมวสีรุ้ง ที่ถูกค้นพบจากเศษหินอุกกาบาต ความหายากระดับ Super freaking rare",
         "price": "10,000,000"
