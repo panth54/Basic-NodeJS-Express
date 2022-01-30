@@ -15,7 +15,14 @@ app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 productRouter.route("/").get((req, res) => {
-    res.render("products");
+    res.render("products", {
+        products: [
+            {name: "กะเพราหมู", description: "หมูสีรุ้ง", price: 100},
+            {name: "กะเพราแมว", description: "แมวสีรุ้ง", price: 200},
+            {name: "กะเพราหมา", description: "หมาสีรุ้ง", price: 300},
+            {name: "กะเพราม้า", description: "ม้าสีรุ้ง", price: 400}
+        ]
+    });
 });
 
 productRouter.route("/1").get((req, res) => {
