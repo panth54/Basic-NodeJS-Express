@@ -19,6 +19,11 @@
         "name": "กะเพราม้า",
         "description": "ม้าสีรุ้ง",
         "price": 400
+      },
+      {
+        "name": "กะเพราแมวSSR",
+        "description": "แมวสีรุ้ง ที่ถูกค้นพบจากเศษหินอุกกาบาต ความหายากระดับ Super freaking rare",
+        "price": "1000 BTC"
       }
     ]
   }
