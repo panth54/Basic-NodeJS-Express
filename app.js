@@ -23,7 +23,7 @@ productRouter.route("/").get((req, res) => {
 
 productRouter.route("/:id").get((req, res) => {
     const id = req.params.id;
-    res.send('Hello produc ' + id);
+    res.send('Hello product ' + id);
 });
 app.use("/products", productRouter);
 
