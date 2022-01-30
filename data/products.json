@@ -1,0 +1,24 @@
+{
+    "products": [
+      {
+        "name": "กะเพราหมู",
+        "description": "หมูสีรุ้ง",
+        "price": 100
+      },
+      {
+        "name": "กะเพราแมว",
+        "description": "แมวสีรุ้ง",
+        "price": 200
+      },
+      {
+        "name": "กะเพราหมา",
+        "description": "หมาสีรุ้ง",
+        "price": 300
+      },
+      {
+        "name": "กะเพราม้า",
+        "description": "ม้าสีรุ้ง",
+        "price": 400
+      }
+    ]
+  }
