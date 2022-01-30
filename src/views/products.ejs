@@ -64,13 +64,7 @@
         </div>
     </div>
 
-    <!--====== PRELOADER PART ENDS ======-->
-
-    <div class="brand-area pt-90">
-        <div class="container">
-            <h1>Hello World</h1>
-        </div>
-    </div>  
+    <!--====== PRELOADER PART ENDS ======--> 
     
     <!--====== HEADER PART START ======-->
     
@@ -147,7 +141,15 @@
     
     <!--====== HEADER PART ENDS ======-->
     
-  
+    <div class="brand-area pt-90">
+        <div class="container"> 
+            <h1>Hello World</h1>
+            <% products.map((product) => { %>
+            <h4><%=product.name %></h4>
+            <p><%=product.description %></p>
+            <% }) %>
+        </div>
+    </div> 
     
     <!--====== FOOTER PART START ======-->
     
